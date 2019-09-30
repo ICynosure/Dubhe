@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*容器属性的设置 start*/
+@media screen and (max-width: 800px) {
+	.container{
+		width: 100%;
+	}
+}
+@media screen and (min-width: 800px) {
+	.container{
+		width: 800px;
+		/*使整体div处于中间位置*/
+		margin: auto;
+		position: absolute;
+		left: 0;
+		right: 0;
+	}
+}
+.container{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000;
+	border-radius: 1%;
+	height: 100%;
+}
+
+/*容器属性设置 end*/

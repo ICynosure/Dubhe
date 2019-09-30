@@ -2,6 +2,13 @@
 /* CSS Document */
 
 /*css去掉 点击按钮时出现的篮框*/
-.button_click_outline{
+.button_click_outline_none{
 	outline: none;
 }
+/*去掉input框的周边框*/
+.input_outline_none{
+	/*尝试了一下，outline: none 没有效果*/
+	/*outline: none;*/ 
+	border-width: 0px;
+}
+/*效果同上*/
