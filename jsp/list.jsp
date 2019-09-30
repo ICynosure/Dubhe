@@ -1,13 +1,15 @@
-<%@ page language="java" contentType="text/html;charset=utf-8" pageEncoding="utf-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.io.*,java.util.*" %>
 <html>
-<head><title>Hello World</title></head>
+<html>
+<head>
+<title>页面重定向</title>
+</head>
 <body>
-Hello World!<br/>
-<%
-out.println("Your IP address is " + request.getRemoteAddr());
-%>
-<jsp:scriptlet>
-out.println("你的IP地址 "+request.getRemoteAddr());
-</jsp:scriptlet>
+
+<h1>页面重定向</h1>
+
+
 </body>
 </html>
