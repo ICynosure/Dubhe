@@ -19,16 +19,9 @@
 		<!-- 首页的logo end -->
 		<!-- 列表设置 start -->
 		<div class="home_list">
+			<%for (int count = 1;count < 4;count++){%>
 			<div class="home_list_li">
 				<input type="button" value="算法" name="arithmetic" class="home_list_li_input input_outline_none button_click_outline_none" onclick="IntoNewPageOnNewWindow('article.jsp')">
-			</div>
-			<div class="home_list_li">
-				<input type="button" value="算法" name="arithmetic" class="home_list_li_input input_outline_none button_click_outline_none" onclick="IntoNewPageOnNewWindow('article.jsp')">
-			</div>
-			<%for (count = 1;count < 4;count++){%>
-			<div class="home_list_li">
-				<input type="button" value="算法" name="arithmetic" class="home_list_li_input input_outline_none button_click_outline_none" onclick="IntoNewPageOnNewWindow('article.jsp')">
-				<%= count%>
 			</div>
 		    <%}%>
 			
